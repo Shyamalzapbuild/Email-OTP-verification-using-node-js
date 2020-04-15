@@ -1,0 +1,9 @@
+<form action="/verify?email=<%=email%>" method="POST">
+    <label for="otp">Enter Email</label>
+    <input class="form-control" type="otp" id="otp"  placeholder="enter 4 digits OTP" name="otp">
+    <p>OTP is Sent to your email id <%=email%></p>
+    <button type="submit" class="mt-3 btn btn-danger" value="Submit">Verify</button>
+    </form>
+    <form action = "/send?email=<%=email%>" method="POST">
+        <button type="submit" class="btn btn-primary">Resend OTP</button>
+</form>

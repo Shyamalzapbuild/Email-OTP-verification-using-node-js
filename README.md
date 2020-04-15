@@ -24,6 +24,5 @@ npm install
 5. After the running the code Go to the Route 
 ```
 localhost:3000/send
-...
-
+````
 Enter your Email Id in which You want to Recieve The OTP
